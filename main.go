@@ -1,12 +1,8 @@
 package main
 
-import (
-	"StepikGo/parallelism"
-	"fmt"
-)
+import "StepikGo/parallelism"
 
 func main() {
-	fmt.Println()
-	parallelism.Conveyor()
+	parallelism.ProcessingDataFromTwoChannels()
 
 }
